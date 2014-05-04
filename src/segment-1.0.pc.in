@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+includedir=@includedir@/libsegment-1.0
+
+Name: libsegment
+Description: Efficient graph based image segmentation library.
+Version: @VERSION@
+Requires: opencv >= 2
+Libs: -L${libdir} -lsegment
+Cflags: -I${includedir}

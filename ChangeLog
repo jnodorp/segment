@@ -1,0 +1,3 @@
+2014-05-02 Julian Schlichtholz <julian.schlichtholz@uni-jena.de>
+
+* converted the wrapper by Christoffer Holmstedt <christoffer.holmstedt@gmail.com> around Pedro Felipe Felzenszwalb's <pff@brown.edu> efficient graph based image segmentation algorithm (see README for further details) into a library
